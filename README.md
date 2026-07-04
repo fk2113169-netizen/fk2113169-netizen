@@ -372,11 +372,11 @@ Bachelor of Science in Computer Science
   <img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
 &nbsp;
-<a href="https://github.com/farazahmed54">
+<a href="https://github.com/fk2113169-netizen">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 &nbsp;
-<a href="https://linkedin.com/in/faraz-ahmed/">
+<a href="https://www.linkedin.com/in/faraz-ahmed-78b69b29b?utm_source=share_via&utm_content=profile&utm_medium=member_android">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
@@ -434,6 +434,25 @@ Bachelor of Science in Computer Science
 </div>
 
 <br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- DEVELOPER QUOTE -->
+<div align="center">
+
+## Developer Quote of the Day
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote"/>
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 <!-- FOOTER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer"/>
