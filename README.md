@@ -1,201 +1,446 @@
+<!-- 
+   █████╗ ██╗    ██╗███████╗███████╗ █████╗ ██╗██╗   ██╗███████╗
+  ██╔══██╗██║    ██║██╔════╝██╔════╝██╔══██╗██║██║   ██║██╔════╝
+  ███████║██║ █╗ ██║███████╗█████╗  ███████║██║██║   ██║███████╗
+  ██╔══██║██║███╗██║╚════██║██╔══╝  ██╔══██║██║██║   ██║╚════██║
+  ██║  ██║╚███╔███╔╝███████║███████╗██║  ██║██║╚██████╔╝███████║
+  ╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚══════╝
+-->
+
 <div align="center">
-  <!-- Capsule Render Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,161b22,30363d&height=250&section=header&text=Faraz%20Ahmed&subtitle=AI%20Systems%20Engineer%20%7C%20Agentic%20Workflow%20Developer%20%7C%20Digital%20Marketer&fontSize=60&subtitleSize=20&fontColor=ffffff&subtitleColor=8b949e&animation=fadeIn" width="100%" alt="Header Wave" />
+  
+<!-- ANIMATED HEADER WITH GRADIENT WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=200&section=header&text=Faraz%20Ahmed&fontSize=50&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=AI%20Systems%20Engineer%20%7C%20Agentic%20Workflow%20Developer%20%7C%20SaaS%20Builder&descAlignY=55&descSize=16&descColor=8b949e"/>
 
-  <br/>
+<!-- ANIMATED TYPING SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Building+AI-Driven+Solutions+%F0%9F%A4%96;Shipping+Modern+SaaS+Platforms+%F0%9F%9A%80;Automating+Complex+Workflows+⚡" alt="Typing SVG" />
 
-  <!-- Typing SVG -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=58A6FF&center=true&vCenter=true&width=550&height=50&lines=Engineering+Agentic+Workflows+%E2%9A%A1;Building+Autonomous+Systems+%F0%9F%A4%96;Translating+Abstractions+into+Reality+%F0%9F%9A%80;Vibe+Coding+the+Future+%F0%9F%92%BB" alt="Typing SVG" />
+<br/>
 
-  <br/>
+<!-- PROFILE METRICS -->
+<p>
+  <img src="https://img.shields.io/badge/CS%20Student-IQRA%20University-58a6ff?style=flat-square" alt="Education"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Islamabad%2C%20Pakistan-238636?style=flat-square" alt="Location"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Automation-e3b341?style=flat-square" alt="Focus"/>
+</p>
 
-  <!-- Profile Metrics -->
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=58a6ff&style=flat-square&labelColor=0d1117" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&color=58a6ff&style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Followers" />
-    <img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?label=Stars%20Earned&color=58a6ff&style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Stars" />
-  </p>
-
-  <br/>
-
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7" alt="Trophies" />
 </div>
 
-<hr style="border: 1px solid #1f242c; margin: 30px 0;" />
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-<!-- Two Column Layout: About Me (Left) & Performance Metrics (Right) -->
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <!-- Left Column: About Me -->
-    <td width="55%" valign="top" style="border: none; padding-right: 20px;">
-      <h3>🤖 About Me</h3>
-      <p>I am a full-stack engineer and digital marketer specializing in building autonomous systems and agentic workflows. By leveraging advanced language models and automation pipelines, I bridge the gap between abstract architectures and highly efficient, production-grade applications.</p>
-      
-      <h4>⚡ Terminal Interface</h4>
-      
+<!-- PROFESSIONAL INTRODUCTION -->
+<div align="center">
+
+## About Me
+
+</div>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
 ```python
-class SystemArchitect:
+class AIEngineer:
     def __init__(self):
         self.name = "Faraz Ahmed"
-        self.core_stack = ["Python", "Java", "C++"]
-        self.agentic_ai = [
-            "Claude", 
-            "Google AI Studio", 
-            "Agentic Frameworks"
+        self.title = "AI Systems Engineer"
+        self.location = "Islamabad, Pakistan"
+        self.email = "farazahmed54@gmail.com"
+        self.phone = "+92 333 7393471"
+        
+    expertise = {
+        "ai_frameworks": ["Claude", "Google AI Studio", "n8n"],
+        "languages": ["Python", "Java", "C++"],
+        "backend": ["Supabase", "Node.js", "FastAPI"],
+        "automation": ["n8n", "Make.com", "Zapier", "Pipedream"],
+        "deployment": ["Vercel", "Replit", "GitHub Actions"],
+        "specializations": [
+            "Agentic AI Workflows",
+            "B2B SaaS Architecture",
+            "AI-Assisted Development",
+            "System Design & DSA"
         ]
-        self.automation = [
-            "n8n", 
-            "Make.com", 
-            "Zapier", 
-            "Pipedream"
-        ]
-        self.deployment = [
-            "Supabase", 
-            "Vercel", 
-            "Antigravity CLI"
-        ]
-        self.current_projects = [
-            "AnswerEnginePro", 
-            "Semantic-Stream", 
-            "Chess.pk", 
-            "Terra", 
-            "Eco-Match"
-        ]
+    }
+    
+    current_project = "Enterprise AI Automation Solutions"
+    
+    def vibe_code(self):
+        return "Rapid deployment with AI assistance 🚀"
 ```
-    </td>
-    <!-- Right Column: Stats Sidebar -->
-    <td width="45%" valign="top" style="border: none; padding-left: 10px;">
-      <h3>📊 Performance Metrics</h3>
-      <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&value_color=ffffff&hide_border=true" width="100%" alt="GitHub Stats" />
-        <br/><br/>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8b949e&dates=8b949e" width="100%" alt="Streak Stats" />
-      </div>
-    </td>
-  </tr>
-</table>
 
-<hr style="border: 1px solid #1f242c; margin: 30px 0;" />
-
-### 🛠️ Interactive Tech Stack
-
-<details open>
-  <summary><strong>💻 Languages & Core Tech</strong></summary>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=py,java,cpp,bash" alt="Languages & Core Tech" />
-</details>
-
-<br/>
-
-<details>
-  <summary><strong>🤖 Agentic AI & Automation</strong></summary>
-  <br/>
-  <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-000000?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Zapier-000000?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier" />
-</details>
-
-<br/>
-
-<details>
-  <summary><strong>🌐 Cloud & Deployment</strong></summary>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=supabase,vercel,docker,githubactions,terraform" alt="Cloud & Deployment" />
-</details>
-
-<hr style="border: 1px solid #1f242c; margin: 30px 0;" />
-
-### 🏗️ Professional Build Grid
-
-<table width="100%" style="border-collapse: collapse;">
-  <tr>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:rocket.svg?color=%2358A6FF" width="40" height="40" alt="B2B SaaS" />
-      <h4>B2B SaaS</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Scale applications like <strong>AnswerEnginePro</strong> leveraging <strong>AEO</strong> (Answer Engine Optimization) to intercept AI search traffic.</p>
-    </td>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:cpu.svg?color=%2358A6FF" width="40" height="40" alt="Agentic Automation" />
-      <h4>Agentic Automation</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Implement recursive agent pipelines, multi-LLM orchestration, and smart token compression via <strong>Semantic-Stream</strong>.</p>
-    </td>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:activity.svg?color=%2358A6FF" width="40" height="40" alt="System Diagnostics" />
-      <h4>System Diagnostics</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Building <strong>Terra</strong>, a self-healing cloud diagnostics agent that traces stack traces, resolves dependencies, and patches code autonomously.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:trophy.svg?color=%2358A6FF" width="40" height="40" alt="Community Platforms" />
-      <h4>Community Platforms</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Engage massive developer ecosystems with live scorekeeping, bracket generation, and ranking platforms like <strong>Chess.pk</strong>.</p>
-    </td>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:leaf.svg?color=%2358A6FF" width="40" height="40" alt="Digital Growth Agents" />
-      <h4>Digital Growth Agents</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Engineering circular economy aggregators like <strong>Eco-Match</strong> that process recycling streams and automate supply-chain matching.</p>
-    </td>
-    <td width="33.3%" align="center" valign="top" style="padding: 20px; border: 1px solid #1f242c; border-radius: 8px;">
-      <br/>
-      <img src="https://api.iconify.design/lucide:zap.svg?color=%2358A6FF" width="40" height="40" alt="Rapid Deployment" />
-      <h4>Rapid Deployment</h4>
-      <p style="font-size: 0.9em; color: #8b949e;">Streamlining developer onboarding and microservices template setups live for events like <strong>DevSummit</strong>.</p>
-    </td>
-  </tr>
-</table>
-
-<hr style="border: 1px solid #1f242c; margin: 30px 0;" />
+</td>
+<td width="45%" valign="top">
 
 <div align="center">
-  <h3>⚡ Contribution Activities</h3>
-  <br/>
-  <!-- Platane Contribution Snake -->
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
+
+### Quick Links
+
+<br/>
+
+<a href="https://faraz-portfolio-chi.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
+
+<br/><br/>
+
+### Tech Arsenal
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI%2FML-FF6B6B?style=flat-square&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-58a6ff?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/SaaS-238636?style=flat-square&logo=heroku&logoColor=white"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/n8n-E74C3C?style=flat-square&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Make-000000?style=flat-square&logo=make&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- TECH STACK SECTION -->
+<div align="center">
+
+## Technology Stack
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- FRONTEND DEVELOPMENT -->
+<details open>
+<summary><b>🎨 Frontend Development</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,flutter,tailwind,html,css&perline=7&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<br/><br/>
+</details>
+
+<!-- AI & MACHINE LEARNING -->
+<details open>
+<summary><b>🤖 AI & Machine Learning</b></summary>
+<br/>
+<img src="https://img.shields.io/badge/Claude-000000?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20AI-4285F4?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/LLMs-FF6B6B?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Agentic%20Workflows-58a6ff?style=flat-square&logoColor=white"/>
+<br/><br/>
+</details>
+
+<!-- PROGRAMMING LANGUAGES -->
+<details open>
+<summary><b>💻 Programming Languages</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=python,java,cpp,javascript,typescript&perline=5&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<br/><br/>
+</details>
+
+<!-- BACKEND & DATABASES -->
+<details open>
+<summary><b>🗄️ Backend & Databases</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=supabase,nodejs,fastapi,postgres&perline=4&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<br/><br/>
+</details>
+
+<!-- AUTOMATION & INTEGRATION -->
+<details open>
+<summary><b>⚙️ Automation & Integration</b></summary>
+<br/>
+<img src="https://img.shields.io/badge/n8n-E74C3C?style=flat-square&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Make.com-000000?style=flat-square&logo=make&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pipedream-008800?style=flat-square&logoColor=white"/>
+<br/><br/>
+</details>
+
+<!-- DEPLOYMENT & TOOLS -->
+<details open>
+<summary><b>🚀 Deployment & Tools</b></summary>
+<br/>
+<img src="https://skillicons.dev/icons?i=vercel,github,git,vscode&perline=4&theme=dark" />
+<br/><br/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Replit-F26207?style=flat-square&logo=replit&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+<br/><br/>
+</details>
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- FEATURED PROJECTS -->
+<div align="center">
+
+## Featured Projects
+
+</div>
+
+<br/>
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+<br/><br/>
+<b>AnswerEnginePro</b>
+<br/>
+<sub>Next.js + React SaaS platform<br/>Answer Engine Optimization (AEO)<br/>Tailwind CSS • Full-stack deployment</sub>
+<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
+<br/><br/>
+<b>Semantic-Stream</b>
+<br/>
+<sub>TypeScript token compression engine<br/>for LLM optimization on GitHub<br/>Performance-focused architecture</sub>
+<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"/>
+<br/><br/>
+<b>ChessHub</b>
+<br/>
+<sub>Flutter + Supabase community platform<br/>Pakistani chess enthusiasts<br/>Tournaments & competitive rankings</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- SPECIALIZATIONS -->
+<div align="center">
+
+## Core Competencies
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Specialization | Description |
+|---|---|
+| 🤖 **Agentic AI** | Building autonomous AI workflows and intelligent automation systems |
+| 💼 **B2B SaaS** | End-to-end SaaS architecture, deployment, and scalability |
+| ⚡ **Vibe Coding** | Rapid AI-assisted development with high-level abstractions |
+| 🔄 **Workflow Automation** | n8n, Make.com, and custom integration pipelines |
+| 🏗️ **System Design** | Scalable architecture, DSA, and low-level logic optimization |
+| 📊 **Data Integration** | Supabase, PostgreSQL, and real-time data pipelines |
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- EXPERIENCE & EDUCATION -->
+<div align="center">
+
+## Education & Background
+
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+### 🎓 Education
+
+**IQRA University, Islamabad**  
+Bachelor of Science in Computer Science  
+*Feb 2024 – Mar 2028*
+
+**Core Focus:**
+- Data Structures & Algorithms
+- System Architecture
+- AI & Machine Learning
+- Software Engineering
+
+</td>
+<td width="50%">
+
+### 💼 Experience
+
+**Digital Marketer** (Freelance)  
+*Jan 2024 – Feb 2024*
+
+- AI-driven growth strategies
+- Strategic problem solving
+- Workflow automation
+- AEO strategy integration
+
+**Technical Leadership**
+- Workshop host (200+ attendees)
+- GitHub profile optimization
+- Vibe Coding methodology
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- CONTRIBUTION SNAKE -->
+<div align="center">
+
+## Contribution Activity
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- CONNECT SECTION -->
+<div align="center">
+
+## Let's Connect & Collaborate
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="mailto:farazahmed54@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://faraz-portfolio-chi.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://github.com/farazahmed54">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/faraz-ahmed/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<br/><br/>
+
+**📱 Phone:** +92 333 7393471  
+**📧 Email:** farazahmed54@gmail.com
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- INTERESTS & HOBBIES -->
+<div align="center">
+
+## Beyond Code
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| Interest | Passion |
+|---|---|
+| 📚 | Book Reading & Knowledge Building |
+| ♟️ | Chess Strategy & Competitive Play |
+| 💪 | Bodybuilding & Fitness |
+| 🥊 | Boxing Training |
+| 🏏 | Cricket |
+| 🏸 | Badminton |
+| 📸 | Photography & Visual Storytelling |
+
+**Languages:** Balochi • Urdu • English • Sindhi
+
+</div>
+
+<br/>
+
+<!-- ANIMATED LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<!-- QUOTE -->
+<div align="center">
+
+## Philosophy
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=58a6ff&center=true&vCenter=true&width=600&height=80&lines=Automating+complexity+with+elegant+AI+solutions;Shipping+products+that+matter;Building+the+future%2C+one+workflow+at+a+time" alt="Philosophy"/>
+
+</div>
+
+<br/>
+
+<!-- FOOTER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=120&section=footer"/>
+
+<!-- FOOTER TEXT -->
+<div align="center">
   
-  <br/><br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=4000&pause=1000&color=6e7681&center=true&vCenter=true&width=500&lines=Thanks+for+visiting!+Let%27s+build+something+amazing+together.;Open+to+collaboration+on+AI+projects+%F0%9F%9A%80" alt="Footer"/>
 
-  <table width="100%" style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td width="50%" align="center" valign="middle" style="border: none; padding-right: 10px;">
-        <!-- GitHub Language Donut Chart -->
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=donut&theme=github_dark&hide_border=true&bg_color=0D1117" width="100%" alt="Top Languages" />
-      </td>
-      <td width="50%" align="center" valign="middle" style="border: none; padding-left: 10px;">
-        <!-- Activity Graph -->
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=react-dark&bg_color=0D1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-      </td>
-    </tr>
-  </table>
-
-  <br/><br/>
-
-  <!-- Links -->
-  <p align="center">
-    <a href="https://faraz-portfolio-chi.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=58a6ff" alt="Portfolio" />
-    </a>
-    <a href="https://www.linkedin.com/in/faraz-ahmed-78b69b29b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" />
-    </a>
-    <a href="mailto:YOUR_GITHUB_USERNAME@gmail.com">
-      <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=58a6ff" alt="Email" />
-    </a>
-    <a href="https://faraz-portfolio-chi.vercel.app/resume.pdf" target="_blank">
-      <img src="https://img.shields.io/badge/Download_Resume-000000?style=for-the-badge&logo=read-the-docs&logoColor=58a6ff" alt="Resume" />
-    </a>
-  </p>
-
-  <br/>
-
-  <!-- Waving Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,161b22,30363d&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer Wave" />
 </div>
